@@ -1,0 +1,27 @@
+
+project:
+  type: website
+
+website:
+  title: "Your Name"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/yourusername
+  page-footer:
+    center: "© 2025 Your Name"
+
+format:
+  html:
+    theme: flatly
+    toc: true
+
+
+
