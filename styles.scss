@@ -1,12 +1,24 @@
 /*-- scss:defaults --*/
 
+$navbar-text-color: #757777;
+
 /*-- scss:rules--*/
 // Change banner color (assuming navbar)
 .navbar {
-  background-color: #c4cacf !important; // replace with your desired color
+  background-color: #acd9e2 !important; // replace with your desired color
 }
 
+.navbar li.nav-item a.nav-link  span {
+  color: $navbar-text-color !important; // ensure text color is applied light text}
 // Change body background and text colors
+}
+
+// Change the color of the navbar brand/title (usually the "return to home" link)
+.navbar .navbar-brand,
+.navbar .navbar-brand:visited {
+  color: $navbar-text-color !important; // Replace with your desired color
+}
+
 body {
   background-color: #f8f9fa; // light gray background
   color: #727475; // dark text

@@ -17,7 +17,7 @@ comments: false
 ---
 
 ::: column-page
-This is a Quarto website.
+This is a Quarto website which is under development
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 :::
