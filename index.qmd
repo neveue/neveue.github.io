@@ -1,7 +1,23 @@
 ---
-title: "EneveuproWebsite"
+title: "E. Neveu, Assistant Professor"
+
+about: 
+    template: trestles 
+    links:  
+      - text: Email 
+        icon: envelope 
+        url: "mailto:alburycatalina@dal.ca" 
+      - text: ORCID 
+        icon: person-circle 
+        url: "https://orcid.org/0000-0003-1061-9213" 
+      - text: LinkedIn 
+        icon: linkedin 
+        url: "https://www.linkedin.com/in/alburycatalina" 
+comments: false 
 ---
 
+::: column-page
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::
