@@ -1,18 +1,22 @@
 ---
 title: "E. Neveu, Assistant Professor"
+image: images/profile.jpeg
 
 about: 
     template: trestles 
     links:  
       - text: Email 
         icon: envelope 
-        url: "mailto:alburycatalina@dal.ca" 
+        url: "mailto:emilie.neveu@hevs.ch" 
       - text: ORCID 
         icon: person-circle 
-        url: "https://orcid.org/0000-0003-1061-9213" 
+        url: "https://orcid.org/0000-0002-2835-1502"
+      - text: Github
+        icon: github
+        url: "https://github.com/neveue" 
       - text: LinkedIn 
         icon: linkedin 
-        url: "https://www.linkedin.com/in/alburycatalina" 
+        url: "https://www.linkedin.com/in/eneveu"
 comments: false 
 ---
 

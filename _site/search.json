@@ -11,6 +11,13 @@
     "href": "index.html",
     "title": "E. Neveu, Assistant Professor",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website which is under development\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "List of publications to be updated soon"
   }
 ]

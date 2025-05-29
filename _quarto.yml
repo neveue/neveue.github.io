@@ -10,6 +10,8 @@ website:
         href: publications.qmd
       - text: Projects
         href: projects.qmd
+  favicon: "images/favicon_blueearth.png"
+
   page-footer:
     center: "© 2025 E. Neveu  Powered by Quarto with lux theme. Hosted by GitHub Pages"
 
@@ -21,6 +23,8 @@ format:
     smooth-scroll: true
     toc: true
     
+editor: visual
+
 
 
 
