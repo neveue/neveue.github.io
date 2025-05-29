@@ -3,14 +3,15 @@ project:
   type: website
 
 website:
+  favicon: "images/favicon_blueearth.png"
   title: "About me"
   navbar:
+    title: "About me"
     left:
       - text: Publications
         href: publications.qmd
       - text: Projects
         href: projects.qmd
-  favicon: "images/favicon_blueearth.png"
 
   page-footer:
     center: "© 2025 E. Neveu  Powered by Quarto with lux theme. Hosted by GitHub Pages"
