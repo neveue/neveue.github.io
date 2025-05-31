@@ -1,0 +1,12 @@
+---
+title: "Maths for the Earth"
+---
+
+### **Being particularly interested in the impact of mathematics and computer science in natural and human sciences, with Didier Bresch, I have coordinated a Think-tank project during the year 2013**. 
+
+The ‘MathsInTerre’ Research Think-tank was a project financed by the French National Research Agency (ANR), with the aim of making a contribution to a more systemic and integrated vision of the subject “*Mathematics and the complexity of the Earth system*”. Its ultimate goal was to stimulate discussion upstream of the definition of an action plan for the ANR.\
+Comparisons between French and other national research system are also made.
+
+All the results and reports are available on [mathsmonde.math.cnrs.fr](http://mathsmonde.math.cnrs.fr/).
+
+ [![](images/arpwebsite.png)](https://mathsmonde.math.cnrs.fr)

@@ -21,6 +21,8 @@ comments: false
 ---
 
 ::: column-page
+## **Bio**
+
 **I am an assistant professor at [the Institute of Energy and Environment of HES-SO Valais-Wallis](https://www.hevs.ch/en/applied-research/research-institute-sustainable-energy/).**
 
 Since June 2024 I am responsible of the [STREAM](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-de-recherche-energie-et-environnement/stream/) partnership, which aims is to foster innovation in digitization for water management
@@ -30,5 +32,9 @@ I am also collaborating at [Hydro Alps](https://www.hevs.ch/fr/recherche-appliqu
 Studying and working in an transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science. As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I switched to computational biology working on the combination of data and physics laws to better understand and predict complex molecular behaviors.\
 I love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers.
 
-**You will find soon on this website my list of publications and a portfolio of the research projects.**
+***You will find soon on this website my list of publications and a portfolio of the research projects.***
+
+## **Interests** 
+
+Water management, Scientific Computing, Data science and Artificial intelligence, Optimization, Science Communication
 :::
