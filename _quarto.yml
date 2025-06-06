@@ -12,6 +12,8 @@ website:
         href: publications.qmd
       - text: Projects
         href: projects.qmd
+      - text: Teaching
+        href: teaching.qmd
       - text: Maths for the Earth
         href: maths-for-the-earth.qmd
   page-footer:

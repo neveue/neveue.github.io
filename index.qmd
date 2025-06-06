@@ -11,9 +11,9 @@ about:
       - text: ORCID 
         icon: person-circle 
         url: "https://orcid.org/0000-0002-2835-1502"
-      - text: Github
-        icon: github
-        url: "https://github.com/neveue" 
+      #- text: Github
+      #  icon: github
+      #  url: "https://github.com/neveue" 
       - text: LinkedIn 
         icon: linkedin 
         url: "https://www.linkedin.com/in/eneveu"
@@ -21,20 +21,38 @@ comments: false
 ---
 
 ::: column-page
-## **Bio**
+**I am an assistant professor at [the Institute of Energy and Environment of HES-SO Valais-Wallis](https://www.hevs.ch/en/applied-research/research-institute-sustainable-energy/).** **I am specialized in solving complex real-world problems combining physical models, statistics, data, and machine learning (what else?)**
 
-**I am an assistant professor at [the Institute of Energy and Environment of HES-SO Valais-Wallis](https://www.hevs.ch/en/applied-research/research-institute-sustainable-energy/).**
+## Research
 
-Since June 2024 I am responsible of the [STREAM](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-de-recherche-energie-et-environnement/stream/) partnership, which aims is to foster innovation in digitization for water management
+Since June 2024, I am responsible of the [STREAM](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-de-recherche-energie-et-environnement/stream/) partnership, which aims is to foster innovation and digitalisation in water management. I am also collaborating at [Hydro Alps](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-systemes-industriels-valais/hydro-alps-200776), another partnership focusing in applied research for hydroelectricity.
 
-I am also collaborating at [Hydro Alps](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-systemes-industriels-valais/hydro-alps-200776).
+***You will find soon on this website a [portfolio of the research projects](projects.qmd).***
 
-Studying and working in an transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science. As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I switched to computational biology working on the combination of data and physics laws to better understand and predict complex molecular behaviors.\
-I love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers.
+## Teaching
 
-***You will find soon on this website my list of publications and a portfolio of the research projects.***
+In the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, **Computer science and communication systems** and Life Sciences Engineering. 
+
+*See [Teaching](teaching.qmd) for a list of the given classes*
+
+## Bio
+
+As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I also have experiences in machine learning and evolutionary models for computational biology.
+
+-   PhD in Applied Mathematics, Grenoble University, [AirSea Inria team](https://team.inria.fr/airsea/en/) (former MOISE)
+
+-   Engineer in Applied Mathematics and Computer Science, ENSIMAG, Grenoble
+
+In 2013, I co-coordinated the project [Maths for the Earth](maths-for-the-earth.qmd), which brought together researchers from various disciplines to help the ANR define its action plan for addressing environmental challenges through mathematical approaches.
+
 
 ## **Interests** 
 
-Water management, Scientific Computing, Data science and Artificial intelligence, Optimization, Science Communication
+I love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers. Studying and working in a transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science.
+
+
+-   Water management, water distribution and allocation, Hydroelectricity, impact of climate change on water resources and usages
+-   Short-term operation scheduling, Monitoring, Long-term reservoir operation,
+-   Scientific Computing, Data science and Artificial intelligence, Optimization,
+-   Science and Society, Science Communication
 :::
