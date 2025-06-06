@@ -27,11 +27,9 @@ comments: false
 
 Since June 2024, I am responsible of the [STREAM](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-de-recherche-energie-et-environnement/stream/) partnership, which aims is to foster innovation and digitalisation in water management. I am also collaborating at [Hydro Alps](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-systemes-industriels-valais/hydro-alps-200776), another partnership focusing in applied research for hydroelectricity.
 
-***You will find soon on this website a [portfolio of the research projects](projects.qmd).***
-
 ## Teaching
 
-In the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, **Computer science and communication systems** and Life Sciences Engineering. 
+In the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, **Computer science and communication systems** and Life Sciences Engineering.
 
 *See [Teaching](teaching.qmd) for a list of the given classes*
 
@@ -45,11 +43,9 @@ As a numerical mathematician and computer scientist, I previously worked on mult
 
 In 2013, I co-coordinated the project [Maths for the Earth](maths-for-the-earth.qmd), which brought together researchers from various disciplines to help the ANR define its action plan for addressing environmental challenges through mathematical approaches.
 
-
 ## **Interests** 
 
 I love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers. Studying and working in a transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science.
-
 
 -   Water management, water distribution and allocation, Hydroelectricity, impact of climate change on water resources and usages
 -   Short-term operation scheduling, Monitoring, Long-term reservoir operation,

@@ -1,0 +1,51 @@
+
+- category: Hautes Alpes
+  description: |
+      Renowned for kayaking
+  tiles:
+    - title: Les combes du Guil, Chateau Queyras
+      thumbnail: HA/guil.jpg
+    - title: Le Guil, le Tunnel
+      thumbnail: HA/guil2.jpg
+    - title: Le Cristillan, vers le Col de Clausis, Ceillac 
+      thumbnail: HA/IMG_9983.jpeg
+    - title : La Haute Ubaye
+      thumbnail: HA/IMG_0199.jpeg
+    - title : La Haute Ubaye
+      thumbnail: HA/IMG_0323.jpeg
+  
+- category: Tessin
+  description: |
+    Valle Maggia, Valle Verzasca
+  tiles:
+    - title:  Val Canègia
+      thumbnail: Tessin/P1080107.jpg 
+
+#    - title:  Val di Lodano
+#      thumbnail: Tessin/P1080150.jpg   
+
+    - title:  Val di Verzasca
+      thumbnail: Tessin/P1080042.jpg
+
+- category: Haut Val de Bagnes
+  description: |
+      Close by my home.
+  tiles:
+    - title: Dyure de Sery, En dessous du Petit Combin
+      thumbnail: HVB/HVB.jpeg
+
+
+
+
+
+- category: Protected Wild rivers
+  description: |
+    Projects to preserve the most beautiful rivers.
+  tiles:
+    - title:  Swiss rivers - Perles de rivières WWF
+      thumbnail: PDR/pdr.jpeg
+      href : "https://www.wwf.ch/fr/projets/decouvrez-nos-perles-de-riviere"
+
+    - title:  French rivers - Rivières Sauvages
+      thumbnail: PDR/Rivieres-Sauvages-Guiers-Mort-photo-Remi-Masson-02-2.webp
+      href : "https://rivieres-sauvages.fr/les-rivieres-labellisees-site-rivieres-sauvages/"

@@ -1,5 +1,49 @@
 ---
 title: "Publications"
+bibliography: publications.bib
+nocite: |
 ---
 
-List of publications *to be updated soon*
+### Articles in international peer-reviewed journals
+- Khalifeh, D., Neveu E., and Fasshauer D. *Megaviruses Contain Various Genes Encoding for Eukaryotic Vesicle Trafficking Factors.* [https://doi.org/10.1111/tra.12860](https://doi.org/10.1111/tra.12860) Traffic 23 (8): 414–25, 2022
+
+- Neveu, E., Khalifeh D., Salamin N., and  Fasshauer D. *Prototypic SNARE Proteins Are Encoded in the Genomes of Heimdallarchaeota, Potentially Bridging the Gap Between the Prokaryotes and Eukaryotes.*  [https://doi.org/10.1016/j.cub.2020.04.060](https://doi.org/10.1016/j.cub.2020.04.060), Current Biology 30 (13): 2468–2480.e5, 2020. 
+
+- Moroz, L.L., Romanova, D.Y., Nikitin, M.A. et al. *The diversification and lineage-specific expansion of nitric oxide signaling in Placozoa: insights in the evolution of gaseous transmission.* [https://doi.org/10.1038/s41598-020-69851-w](https://doi.org/10.1038/s41598-020-69851-w), Sci Rep 10 (1):13020, 2020
+
+- Neveu E., Popov P., Hoffmann A., Migliosi A., Besseron X, Danoy G., Bouvry P., Grudinin G. RapidRMSD: Rapid determination of RMSDs corresponding to motions of flexible molecules, [https://doi.org/10.1093/bioinformatics/bty160](https://doi.org/10.1093/bioinformatics/bty160), Bioinformatics 2018
+
+- Crawford, W. J., Moore, A. M., Jacox, M. G., Fiechter, J., Neveu, E., & Edwards, C. A. *A resonant response of the California Current circulation to forcing by low frequency climate variability*. [https://doi.org/10.1016/j.dsr2.2017.07.016](https://doi.org/10.1016/j.dsr2.2017.07.016),  Deep Sea Research Part II: Topical Studies in Oceanography 2017.
+
+- Neveu E., Grudinin S., Popov P., Ritchie D.W, *PEPSI-DOCK: A Detailed Data-Driven Protein-Protein Interaction Potential Accelerated By Polar Fourier Correlation*, [doi: 10.1093/bioinformatics/btw443](http://bioinformatics.oxfordjournals.org/content/32/17/i693.abstract), Bioinformatics, 2016.
+
+- Lensink, M. et al. *Prediction of homo- and hetero-protein complexes by ab-initio and template-based docking: a CASP- CAPRI experiment.* [doi: 10.1002/prot.25007](http://onlinelibrary.wiley.com/doi/10.1002/prot.25007/abstract) PROTEINS: Structure, Function, and Bioinformatics, 2016
+
+- Grudinin S., Popov P., Neveu E., Cheremovskiy G. *Predicting binding poses and affinities in the CSAR 2013-2014 docking exercises using the knowledge-based Convex-PL potential.* [doi: 10.1021/acs.jcim.5b00339](http://pubs.acs.org/doi/10.1021/acs.jcim.5b00339), J. Chem. Inf. Model., 2015.
+
+- Neveu E., et al. *An Historical analysis of the California Current Circulation using ROMS 4D-Var. Part I: System Configuration and Diagnostics*. [doi: 10.1016/j.ocemod.2015.11.012](http://www.mjacox.com/wp-content/uploads/2016/01/Neveu_OceMod_2016.pdf), Ocean Modelling 2015.
+
+- Debreu L., Neveu E., Simon E., Le Dimet F. X., Vidard A. *Multigrid solvers and multigrid preconditioners for the solution of variational data assimilation problems*. [doi: 10.1002/qj.2676](http://onlinelibrary.wiley.com/doi/10.1002/qj.2676/abstract), Quaterly Journal of the Royal
+Meteorological Society, 2015.
+
+
+- Neveu E., Debreu L, Le Dimet F-X. *Multigrid Methods and Data Assimilation ― Convergence Study and First Experiments on Non-Linear Equations*. Revue Africaine de Recherche En Informatique Et Mathématiques Appliquées Volume 14 - 2011 [https://doi.org/10.46298/arima.1944](https://doi.org/10.46298/arima.1944)
+
+### Book chapters
+
+- Moore A, Edwards C, Fiechter J, Drake P, Neveu E, Arango H G, Gürol S, Weaver A T. *A 4D-Var Analysis System for the California Current: A Prototype for an Operational Regional Ocean Data Assimilation System*. in Data Assimilation for Atmospheric, Oceanic and Hydrological Applications: Vol. II, Edition: 2013 ed., Chapter: 14, Publisher: Springer-Verlag Berlin and Heidelberg GmbH & Co. KG, Editors: Seon K. Park, Lian Xu, pp.345-366
+
+- Debreu L, Neveu E, Le Dimet F-X, Simon E. *Multigrid algorithms and local mesh refinement methods in the context of variational data assimilation*. Eric Blayo; Marc Bocquet; Emmanuel Cosme; F. Cugliandolo Leticia. Lecture notes of Les Houches summer school 2012, Oxford University Press, pp.576, 2014, 9780198723844.
+
+### Proceedings
+
+- Vidard A, Debreu L, Neveu E. *MultiResolution Variational Data Assimilation Schemes With Application to a Realistic Ocean Model.* 6th WMO Symposium on Data Assimilation, Oct 2013, College Park, United States.
+
+- Vidard A, Debreu L, Neveu E. *Multi resolution variational data assimilation system for the ocean*. EGU 2013 - European Geosciences Union General Assembly 2013, Apr 2013, Vienne, Austria.
+
+- Neveu E, Debreu L, Le Dimet F-X. *Méthodes multigrilles pour le 4D-VAR. Colloque National sur l’Assimilation de Données*, Dec 2010, Grenoble, France. 2010.
+
+- Neveu E, Debreu L, Le Dimet F-X. *Multigrid methods and data assimilation applied to a linear advection equation*. CARI’10 - African Conference on Research in Computer Science and Applied Mathematics, Oct 2010, Yamoussoukro, Côte d’Ivoire. 2010.
+
+### PhD
+- *Applications des méthodes multigrilles à l’assimilation de données en géophysique.* [PDF](https://theses.hal.science/tel-00693486/PDF/Neveu_Emilie_2011_archivage.pdf), Université de Grenoble, 2011

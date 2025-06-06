@@ -16,8 +16,10 @@ website:
         href: teaching.qmd
       - text: Maths for the Earth
         href: maths-for-the-earth.qmd
+      - text: Rivers
+        href: gallery/index.qmd
   page-footer:
-    center: "© 2025 E. Neveu  Powered by Quarto with lux theme. Hosted by GitHub Pages"
+    center: "© 2025 E. Neveu  Powered by Quarto with lux theme."
 
 format:
   html:

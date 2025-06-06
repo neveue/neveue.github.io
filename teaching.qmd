@@ -10,15 +10,15 @@ Teaching with small classes enables enhanced interactivity and project-based lea
 
     -   *Traitement et gestion des données BsC1 4ECTS* : Basics of manipulations and graphics in Excel and Python, SqL, TimeSerie Database, Raspberry and connected sensors, Grafana
 
-    -   *Traitement et gestion des données BsC2 2ECTS * : Statistical bases, correlation and regression, ANOVA and classification, learning principles and neural networks, well-posed problems and overfitting, time series: analysis and prediction. Python, scikit learn
+    -   *Traitement et gestion des données BsC2 2ECTS* : Statistical bases, correlation and regression, ANOVA and classification, learning principles and neural networks, well-posed problems and overfitting, time series: analysis and prediction. Python, scikit learn
 
-    -   *Optimisation des aménagements hydroélectriques BsC 3 2ECTS* : under development
+    -   *Optimisation des aménagements hydroélectriques BsC3 2ECTS* : under development
 
 -   Computer Science and communication systems :
 
-    -   *Algorithmics BsC 2 1st part 2ECTS* : complexity, dichotomy, sorting algorithms, introduction to profiling (measuring time execution), backtracking, branch & bound
+    -   *Algorithmics BsC2 1st part 2ECTS* : complexity, dichotomy, sorting algorithms, introduction to profiling (measuring time execution), backtracking, branch & bound
 
-    -   *Optimization for Machine Learning Bsc 3 1.2 ECTS* : learning principles, well-posed problems and overfitting, regularization
+    -   *Optimization for Machine Learning BsC3 1.2ECTS* : learning principles, well-posed problems and overfitting, regularization
 
 -   Life Sciences Engineering :
 
