@@ -22,13 +22,18 @@ Rivers
 Drawn to water as a kayaker, I find renewal in alpine rivers—their wild currents and tranquil pools. Explore below just a few of my favorite spots.
 
 -   [Hautes Alpes](#hautes-alpes)\
-
 -   [Tessin](#tessin)\
-
 -   [Haut Val de Bagnes](#haut-val-de-bagnes)\
-
 -   [Protected wild rivers](#protected-wild-rivers)
 ::::
+
+```{r}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
+#| warning: false
+source("carousel.R")
+carousel("gallery-carousel", 5000, 
+         yaml.load_file("carousel.yml"))
+```
 :::::
 ::::::
 
