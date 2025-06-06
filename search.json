@@ -11,21 +11,42 @@
     "href": "index.html",
     "title": "E. Neveu, Assistant Professor",
     "section": "",
-    "text": "I am an assistant professor at the Institute of Energy and Environment of HES-SO Valais-Wallis.\nSince June 2024 I am responsible of the STREAM partnership, which aims is to foster innovation in digitization for water management\nI am also collaborating at Hydro Alps.\nStudying and working in an transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science. As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I switched to computational biology working on the combination of data and physics laws to better understand and predict complex molecular behaviors.\nI love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers.\nYou will find soon on this website my list of publications and a portfolio of the research projects.\n\n\n\nWater management, Scientific Computing, Data science and Artificial intelligence, Optimization, Science Communication"
+    "text": "I am an assistant professor at the Institute of Energy and Environment of HES-SO Valais-Wallis. I am specialized in solving complex real-world problems combining physical models, statistics, data, and machine learning (what else?)\n\n\nSince June 2024, I am responsible of the STREAM partnership, which aims is to foster innovation and digitalisation in water management. I am also collaborating at Hydro Alps, another partnership focusing in applied research for hydroelectricity.\nYou will find soon on this website a portfolio of the research projects.\n\n\n\nIn the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, Computer science and communication systems and Life Sciences Engineering.\nSee Teaching for a list of the given classes\n\n\n\nAs a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I also have experiences in machine learning and evolutionary models for computational biology.\n\nPhD in Applied Mathematics, Grenoble University, AirSea Inria team (former MOISE)\nEngineer in Applied Mathematics and Computer Science, ENSIMAG, Grenoble\n\nIn 2013, I co-coordinated the project Maths for the Earth, which brought together researchers from various disciplines to help the ANR define its action plan for addressing environmental challenges through mathematical approaches.\n\n\n\nI love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers. Studying and working in a transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science.\n\nWater management, water distribution and allocation, Hydroelectricity, impact of climate change on water resources and usages\nShort-term operation scheduling, Monitoring, Long-term reservoir operation,\nScientific Computing, Data science and Artificial intelligence, Optimization,\nScience and Society, Science Communication"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "E. Neveu, Assistant Professor",
+    "section": "",
+    "text": "Since June 2024, I am responsible of the STREAM partnership, which aims is to foster innovation and digitalisation in water management. I am also collaborating at Hydro Alps, another partnership focusing in applied research for hydroelectricity.\nYou will find soon on this website a portfolio of the research projects."
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "E. Neveu, Assistant Professor",
+    "section": "",
+    "text": "In the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, Computer science and communication systems and Life Sciences Engineering.\nSee Teaching for a list of the given classes"
   },
   {
     "objectID": "index.html#bio",
     "href": "index.html#bio",
     "title": "E. Neveu, Assistant Professor",
     "section": "",
-    "text": "I am an assistant professor at the Institute of Energy and Environment of HES-SO Valais-Wallis.\nSince June 2024 I am responsible of the STREAM partnership, which aims is to foster innovation in digitization for water management\nI am also collaborating at Hydro Alps.\nStudying and working in an transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science. As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I switched to computational biology working on the combination of data and physics laws to better understand and predict complex molecular behaviors.\nI love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers.\nYou will find soon on this website my list of publications and a portfolio of the research projects."
+    "text": "As a numerical mathematician and computer scientist, I previously worked on multi resolution algorithms and data assimilation for physical oceanography. I also have experiences in machine learning and evolutionary models for computational biology.\n\nPhD in Applied Mathematics, Grenoble University, AirSea Inria team (former MOISE)\nEngineer in Applied Mathematics and Computer Science, ENSIMAG, Grenoble\n\nIn 2013, I co-coordinated the project Maths for the Earth, which brought together researchers from various disciplines to help the ANR define its action plan for addressing environmental challenges through mathematical approaches."
   },
   {
     "objectID": "index.html#interests",
     "href": "index.html#interests",
     "title": "E. Neveu, Assistant Professor",
     "section": "",
-    "text": "Water management, Scientific Computing, Data science and Artificial intelligence, Optimization, Science Communication"
+    "text": "I love to adjust the abstract world of the mathematics to realistic constraints while creating links and transfer between disciplines and researchers. Studying and working in a transdisciplinary environment has always been as much a challenge as an evidence for me, since my main driver is helping progress in natural science.\n\nWater management, water distribution and allocation, Hydroelectricity, impact of climate change on water resources and usages\nShort-term operation scheduling, Monitoring, Long-term reservoir operation,\nScientific Computing, Data science and Artificial intelligence, Optimization,\nScience and Society, Science Communication"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "In the School of Engineering, I am involved in three BsC : Energy & Environment Engineering, Computer science and communication systems and Life Sciences Engineering.\nTeaching with small classes enables enhanced interactivity and project-based learning, allowing students to go from theory to practice.\n\nEnergy & Environment Engineering :\n\nTraitement et gestion des données BsC1 4ECTS : Basics of manipulations and graphics in Excel and Python, SqL, TimeSerie Database, Raspberry and connected sensors, Grafana\nTraitement et gestion des données BsC2 2ECTS  : Statistical bases, correlation and regression, ANOVA and classification, learning principles and neural networks, well-posed problems and overfitting, time series: analysis and prediction. Python, scikit learn\nOptimisation des aménagements hydroélectriques BsC 3 2ECTS : under development\n\nComputer Science and communication systems :\n\nAlgorithmics BsC 2 1st part 2ECTS : complexity, dichotomy, sorting algorithms, introduction to profiling (measuring time execution), backtracking, branch & bound\nOptimization for Machine Learning Bsc 3 1.2 ECTS : learning principles, well-posed problems and overfitting, regularization\n\nLife Sciences Engineering :\n\nData Sciences BsC2 2ECTS : Statistical bases, correlation and regression, ANOVA and classification, learning principles and neural networks, kNN, well-posed problems and overfitting. Python, scikit learn"
   },
   {
     "objectID": "projects.html",
