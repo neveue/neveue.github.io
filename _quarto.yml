@@ -26,6 +26,7 @@ format:
     theme: 
       - lux
       - styles.scss
+    mainfont: Nunito Sans
     smooth-scroll: true
     toc: true
     
