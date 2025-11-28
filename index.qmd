@@ -21,7 +21,6 @@ comments: false
 ---
 
 ::: column-page
-
 **I am an assistant professor at [the Institute of Energy and Environment of HES-SO Valais-Wallis](https://www.hevs.ch/en/applied-research/research-institute-sustainable-energy/).** **I am specialized in solving complex real-world problems combining physical models, statistics, data, and machine learning (what else?)**
 
 ## Research
