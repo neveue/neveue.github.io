@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="accepted-manuscript" class="level3">
 <h3 class="anchored" data-anchor-id="accepted-manuscript">Accepted Manuscript</h3>
 <ul>
-<li>Mettra F., Neveu E. <em>Challenges in evaluating present and future water resources for multi-purpose use in a small Alpine catchment</em> <code>pdf</code> SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice</li>
+<li>Mettra F., Neveu E. <em>Challenges in evaluating present and future water resources for multi-purpose use in a small Alpine catchment</em> <a href="./pdf/Paper-simhydro2025_v1_submitted_01052025.pdf">pdf</a> SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice</li>
 </ul>
 </section>
 <section id="articles-in-international-peer-reviewed-journals" class="level3">
@@ -188,6 +188,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="proceedings" class="level3">
 <h3 class="anchored" data-anchor-id="proceedings">Proceedings</h3>
 <ul>
+<li><p>Terrettaz F., Mettra F., Neveu E. <em>Génération stochastique de données météorologiques à haute résolution temporelle, à l’aide de Generative Adversarial Networks, pour une meilleure évaluation des crues</em>. <a href="./pdf/Congres_Eau_IA_2026_crues.pdf">pdf</a> Congrès Eau &amp; IA, Mars 2026, Grenoble, France</p></li>
+<li><p>Mettra F., Terrettaz F., Neveu E. <em>Techniques de Machine Learning hybrides et d’agrégation pour modéliser les réseaux d’eau multiusage en région alpine</em>. <a href="./pdf/Congres_Eau_IA_2026_ML_hybride_reseaux_soumis_9fev2026.pdf">pdf</a> Congrès Eau &amp; IA, Mars 2026, Grenoble, France</p></li>
+<li><p>Mettra F., Terrettaz F., Neveu E. <em>Techniques de Machine Learning hybrides et d’agrégation pour modéliser les réseaux d’eau multiusage en région alpine</em>. <a href="./pdf/Paper-simhydro2025_v1_submitted_01052025.pdf">pdf</a> SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice</p></li>
 <li><p>Vidard A, Debreu L, Neveu E. <em>MultiResolution Variational Data Assimilation Schemes With Application to a Realistic Ocean Model.</em> 6th WMO Symposium on Data Assimilation, Oct 2013, College Park, United States.</p></li>
 <li><p>Vidard A, Debreu L, Neveu E. <em>Multi resolution variational data assimilation system for the ocean</em>. EGU 2013 - European Geosciences Union General Assembly 2013, Apr 2013, Vienne, Austria.</p></li>
 <li><p>Neveu E, Debreu L, Le Dimet F-X. <em>Méthodes multigrilles pour le 4D-VAR. Colloque National sur l’Assimilation de Données</em>, Dec 2010, Grenoble, France. 2010.</p></li>
@@ -276,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/neveue\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

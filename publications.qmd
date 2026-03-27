@@ -6,7 +6,7 @@ nocite: |
 
 ### Accepted Manuscript
 
--   Mettra F., Neveu E. *Challenges in evaluating present and future water resources for multi-purpose use in a small Alpine catchment* `pdf` SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice
+-   Mettra F., Neveu E. *Challenges in evaluating present and future water resources for multi-purpose use in a small Alpine catchment* [pdf](/pdf/Paper-simhydro2025_v1_submitted_01052025.pdf) SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice
 
 ### Articles in international peer-reviewed journals
 
@@ -39,6 +39,13 @@ nocite: |
 -   Debreu L, Neveu E, Le Dimet F-X, Simon E. *Multigrid algorithms and local mesh refinement methods in the context of variational data assimilation*. Eric Blayo; Marc Bocquet; Emmanuel Cosme; F. Cugliandolo Leticia. Lecture notes of Les Houches summer school 2012, Oxford University Press, pp.576, 2014, 9780198723844.
 
 ### Proceedings
+
+-  Terrettaz F., Mettra F., Neveu E. *Génération stochastique de données météorologiques à haute résolution temporelle, à l’aide de Generative Adversarial Networks, pour une meilleure évaluation des crues*. [pdf](/pdf/Congres_Eau_IA_2026_crues.pdf) Congrès Eau & IA, Mars 2026, Grenoble, France
+
+- Mettra F., Terrettaz F., Neveu E. *Techniques de Machine Learning hybrides et d'agrégation pour modéliser les réseaux d'eau multiusage en région alpine*. [pdf](/pdf/Congres_Eau_IA_2026_ML_hybride_reseaux_soumis_9fev2026.pdf) Congrès Eau & IA, Mars 2026, Grenoble, France
+
+- Mettra F., Neveu E. *Challenges in assessing present and future water resources for multipurpose
+use in a small Alpine catchment*. [pdf](/pdf/Paper-simhydro2025_v1_submitted_01052025.pdf) SimHydro 2025: Which data for water and models? 2-4 June 2025, Nice
 
 -   Vidard A, Debreu L, Neveu E. *MultiResolution Variational Data Assimilation Schemes With Application to a Realistic Ocean Model.* 6th WMO Symposium on Data Assimilation, Oct 2013, College Park, United States.
 
