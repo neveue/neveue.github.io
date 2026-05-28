@@ -1,0 +1,21 @@
+---
+title: "Research Projects"
+page-layout: full
+toc: false
+listing:
+  - id: projects-list
+    contents: "*/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 200px
+    fields: [image, title, description, categories]
+    sort: "title asc"
+    categories: true
+---
+
+The following research projects are, currently, a list of my activities within HES-SO Valais-Wallis.
+
+The projects tagged with STREAM are done under the STREAM partnership : they are the work of a team as mentioned in their description and they combine hydrology, data science, numerical sciences.
+
+::: {#projects-list}
+:::
