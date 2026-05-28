@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rivers – About me</title>
+<title>setup_instructions – About me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +20,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/favicon_blueearth.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d2c7f3b47a2fe0c5ddba2762228658ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon_blueearth.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d2c7f3b47a2fe0c5ddba2762228658ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,77 +103,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-category","listing-description","listing-tiles"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">About me</span>
     </a>
   </div>
@@ -151,23 +126,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Research Projects</span></a>
+    <a class="nav-link" href="./projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../maths-for-the-earth.html"> 
+    <a class="nav-link" href="./maths-for-the-earth.html"> 
 <span class="menu-text">Maths for the Earth</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
+    <a class="nav-link" href="./gallery/index.html"> 
 <span class="menu-text">Rivers</span></a>
   </li>  
 </ul>
@@ -181,314 +156,146 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#projects-page-setup-instructions" id="toc-projects-page-setup-instructions" class="nav-link active" data-scroll-target="#projects-page-setup-instructions">Projects Page Setup Instructions</a>
+  <ul class="collapse">
+  <li><a href="#step-1-create-folder-structure" id="toc-step-1-create-folder-structure" class="nav-link" data-scroll-target="#step-1-create-folder-structure">Step 1: Create Folder Structure</a></li>
+  <li><a href="#step-2-add-project-template-files" id="toc-step-2-add-project-template-files" class="nav-link" data-scroll-target="#step-2-add-project-template-files">Step 2: Add Project Template Files</a></li>
+  <li><a href="#step-3-update-main-projects.qmd" id="toc-step-3-update-main-projects.qmd" class="nav-link" data-scroll-target="#step-3-update-main-projects.qmd">Step 3: Update Main projects.qmd</a></li>
+  <li><a href="#step-4-add-your-first-project" id="toc-step-4-add-your-first-project" class="nav-link" data-scroll-target="#step-4-add-your-first-project">Step 4: Add Your First Project</a>
+  <ul class="collapse">
+  <li><a href="#a.-create-project-folder" id="toc-a.-create-project-folder" class="nav-link" data-scroll-target="#a.-create-project-folder">4a. Create project folder</a></li>
+  <li><a href="#b.-prepare-the-translated-document" id="toc-b.-prepare-the-translated-document" class="nav-link" data-scroll-target="#b.-prepare-the-translated-document">4b. Prepare the translated document</a></li>
+  <li><a href="#c.-convert-to-markdown" id="toc-c.-convert-to-markdown" class="nav-link" data-scroll-target="#c.-convert-to-markdown">4c. Convert to markdown</a></li>
+  <li><a href="#d.-copy-to-your-website" id="toc-d.-copy-to-your-website" class="nav-link" data-scroll-target="#d.-copy-to-your-website">4d. Copy to your website</a></li>
+  <li><a href="#e.-update-projects.yml" id="toc-e.-update-projects.yml" class="nav-link" data-scroll-target="#e.-update-projects.yml">4e. Update projects.yml</a></li>
+  </ul></li>
+  <li><a href="#step-5-test-and-deploy" id="toc-step-5-test-and-deploy" class="nav-link" data-scroll-target="#step-5-test-and-deploy">Step 5: Test and Deploy</a></li>
+  <li><a href="#adding-more-projects" id="toc-adding-more-projects" class="nav-link" data-scroll-target="#adding-more-projects">Adding More Projects</a></li>
+  <li><a href="#file-locations" id="toc-file-locations" class="nav-link" data-scroll-target="#file-locations">File Locations</a></li>
+  <li><a href="#thats-it" id="toc-thats-it" class="nav-link" data-scroll-target="#thats-it">That’s It!</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div id="hero-banner" class="column-screen page-columns page-full">
-<div class="grid column-page">
-<div class="headline g-col-lg-12 g-col-20 g-col-md-20">
-<div class="h2">
-<p>Rivers</p>
-</div>
-<p>Drawn to water as a kayaker, I find renewal in alpine rivers—their wild currents and tranquil pools. Explore below just a few of my favorite spots.</p>
-<ul>
-<li><p><a href="#hautes-alpes">Hautes Alpes</a><br>
-</p></li>
-<li><p><a href="#tessin">Tessin</a><br>
-</p></li>
-<li><p><a href="#haut-val-de-bagnes">Haut Val de Bagnes</a><br>
-</p></li>
-<li><p><a href="#protected-wild-rivers">Protected wild rivers</a></p></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="listing-gallery" class="column-page quarto-listing quarto-listing-container-custom">
+<section id="projects-page-setup-instructions" class="level1">
+<h1>Projects Page Setup Instructions</h1>
+<p>Follow these steps to add the projects structure to your website. <strong>No changes to your current files will be made</strong> — only new files will be added.</p>
+<section id="step-1-create-folder-structure" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-create-folder-structure">Step 1: Create Folder Structure</h2>
+<p>In your website root (<code>EneveuproWebsite/</code>), create:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> projects</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="step-2-add-project-template-files" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-add-project-template-files">Step 2: Add Project Template Files</h2>
+<p>Copy these three files into the <code>projects/</code> folder:</p>
+<ol type="1">
+<li><strong><code>projects/index.qmd</code></strong> - The projects listing page</li>
+<li><strong><code>projects/projects-grid.ejs</code></strong> - The card grid template</li>
+<li><strong><code>projects/projects.yml</code></strong> - The projects list</li>
+</ol>
+<p>(All files provided separately below)</p>
+</section>
+<section id="step-3-update-main-projects.qmd" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-update-main-projects.qmd">Step 3: Update Main projects.qmd</h2>
+<p>Replace the content of your existing <code>projects.qmd</code> in the main folder with:</p>
+<pre class="qmd"><code>---
+title: "Projects"
+---
 
-<h2 class="anchored">Hautes Alpes</h2>
-
-<p>Renowned for kayaking
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Les combes du Guil, Chateau Queyras</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/guil.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Le Guil, le Tunnel</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/guil2.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Le Cristillan, vers le Col de Clausis, Ceillac</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_9983.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">La Haute Ubaye</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_0199.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">La Haute Ubaye</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_0323.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-</div>
-
-<h2 class="anchored">Tessin</h2>
-
-<p>Valle Maggia, Valle Verzasca
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Val Canègia</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="Tessin/P1080107.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Val di Verzasca</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="Tessin/P1080042.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-</div>
-
-<h2 class="anchored">Haut Val de Bagnes</h2>
-
-<p>Close by my home.
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Dyure de Sery, En dessous du Petit Combin</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HVB/HVB.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-</div>
-
-<h2 class="anchored">Protected Wild rivers</h2>
-
-<p>Projects to preserve the most wild and pristine rivers.
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://www.wwf.ch/fr/projets/decouvrez-nos-perles-de-riviere" class="listing-title">Swiss rivers - Perles de rivières WWF</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://www.wwf.ch/fr/projets/decouvrez-nos-perles-de-riviere">
-      <img src="PDR/pdr.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://rivieres-sauvages.fr/les-rivieres-labellisees-site-rivieres-sauvages/" class="listing-title">French rivers - Rivières Sauvages</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://rivieres-sauvages.fr/les-rivieres-labellisees-site-rivieres-sauvages/">
-      <img src="PDR/Rivieres-Sauvages-Guiers-Mort-photo-Remi-Masson-02-2.webp" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<style>
-
-/* we need to hide this element */
-/* <header id="title-block-header" class="quarto-title-block"></header> */
-
-header#title-block-header {
-  display: none;
-}
-
-body.quarto-light #hero-banner {
-  background-color: rgb(240,245,249);
-}
-
-body.quarto-dark #hero-banner {
-  background-color: #17212B;
-}
-
-div.carousel {
-  margin-top: 2rem; 
-}
-
-body.quarto-dark .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: rgb(255,255,255);
-}
-
-body.quarto-dark .carousel-dark .carousel-control-next-icon,
-body.quarto-dark .carousel-dark .carousel-control-prev-icon {
-  filter: inherit;
-}
-
-#quarto-content main { 
-  margin-top: 0;
-  padding-top: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.headline {
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-bottom: 1em;
-}
-
-.headline p {
-  margin: 0;
-  padding-bottom: 0.2rem;
-}
-
-.headline a {
-  text-decoration: none;
-}
-
-.headline ul li {
-  margin-bottom: 0.3em;
-}
-
-.carousel.card {
-  padding-top: 2em;
-}
-
-.carousel img {
-  width: 70%;
-  margin-bottom: 110px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  margin-bottom: 110px;
-}
-
-.carousel-caption {
-  padding-top: 1em;
-}
-
-.touch {
-  
-}
-</style>
+[Explore my research projects →](projects/index.html)</code></pre>
+<p>This just acts as a redirect to the full projects listing.</p>
+</section>
+<section id="step-4-add-your-first-project" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-add-your-first-project">Step 4: Add Your First Project</h2>
+<section id="a.-create-project-folder" class="level3">
+<h3 class="anchored" data-anchor-id="a.-create-project-folder">4a. Create project folder</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> projects/2024-GPAT/images</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="b.-prepare-the-translated-document" class="level3">
+<h3 class="anchored" data-anchor-id="b.-prepare-the-translated-document">4b. Prepare the translated document</h3>
+<ol type="1">
+<li>Have your translator translate the .docx file</li>
+<li>They can edit directly in the .docx file (keeps formatting intact)</li>
+<li>Send you back the translated .docx file</li>
+</ol>
+</section>
+<section id="c.-convert-to-markdown" class="level3">
+<h3 class="anchored" data-anchor-id="c.-convert-to-markdown">4c. Convert to markdown</h3>
+<p>Run the conversion script:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> docx_to_md.py /path/to/translated_project_folder/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates <code>index.md</code> in that folder.</p>
+</section>
+<section id="d.-copy-to-your-website" class="level3">
+<h3 class="anchored" data-anchor-id="d.-copy-to-your-website">4d. Copy to your website</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming your translated project is in a folder like "2024-GPAT-translated/"</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> /path/to/2024-GPAT-translated/index.md projects/2024-GPAT/</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> /path/to/2024-GPAT-translated/images/<span class="pp">*</span> projects/2024-GPAT/images/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="e.-update-projects.yml" class="level3">
+<h3 class="anchored" data-anchor-id="e.-update-projects.yml">4e. Update projects.yml</h3>
+<p>Add your project to <code>projects/projects.yml</code>:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Ground Plain Aqua Track"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">date</span><span class="kw">:</span><span class="at"> 2024-06</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">folder</span><span class="kw">:</span><span class="at"> </span><span class="st">"2024-GPAT"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Automated monitoring and prediction of groundwater levels using sensor networks, statistical analysis, and machine learning."</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="step-5-test-and-deploy" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-test-and-deploy">Step 5: Test and Deploy</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From your website root</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then check: <code>http://localhost:7777/projects/</code> (if using local server)</p>
+</section>
+<section id="adding-more-projects" class="level2">
+<h2 class="anchored" data-anchor-id="adding-more-projects">Adding More Projects</h2>
+<p>Every time you add a new project:</p>
+<ol type="1">
+<li>Create folder: <code>mkdir -p projects/YYYY-ProjectName/images</code></li>
+<li>Convert: <code>python3 docx_to_md.py /translated/project/path/</code></li>
+<li>Copy files to <code>projects/YYYY-ProjectName/</code></li>
+<li>Add entry to <code>projects/projects.yml</code></li>
+<li>Run <code>quarto render</code></li>
+<li>Commit and push</li>
+</ol>
+<hr>
+</section>
+<section id="file-locations" class="level2">
+<h2 class="anchored" data-anchor-id="file-locations">File Locations</h2>
+<pre><code>EneveuproWebsite/
+├── projects.qmd                    ← UPDATE THIS (just has redirect link)
+├── projects/                       ← CREATE THIS FOLDER
+│   ├── index.qmd                   ← CREATE (copy provided template)
+│   ├── projects-grid.ejs           ← CREATE (copy provided template)
+│   ├── projects.yml                ← CREATE (copy provided template)
+│   ├── 2024-GPAT/
+│   │   ├── index.md                ← ADD (converted from .docx)
+│   │   └── images/                 ← ADD (project images)
+│   └── ...more projects...
+└── _quarto.yml                     ← NO CHANGES NEEDED</code></pre>
+<hr>
+</section>
+<section id="thats-it" class="level2">
+<h2 class="anchored" data-anchor-id="thats-it">That’s It!</h2>
+<p>Once set up, the workflow is:</p>
+<ol type="1">
+<li><strong>Translate</strong> → 2. <strong>Convert</strong> → 3. <strong>Copy</strong> → 4. <strong>Add to YAML</strong> → 5. <strong>Render</strong></li>
+</ol>
+<p>All templates match your lux theme and Nunito Sans font automatically.</p>
 
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -563,7 +370,7 @@ html {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/neveue\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -908,5 +715,5 @@ html {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

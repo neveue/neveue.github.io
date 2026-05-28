@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>List of projects <em>to be updated soon</em></p>
+<p><a href="projects/index.html">Explore my research projects →</a></p>
 
 
 
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/neveue\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

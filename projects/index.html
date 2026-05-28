@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rivers – About me</title>
+<title>Research Projects – About me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,20 +73,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects-list .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-category","listing-description","listing-tiles"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+    window['quarto-listings']['listing-projects-list'] = new List('listing-projects-list', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,7 +133,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -155,7 +155,7 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Research Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -167,7 +167,7 @@ window.Quarto = {
 <span class="menu-text">Maths for the Earth</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Rivers</span></a>
   </li>  
 </ul>
@@ -178,314 +178,65 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9nJUMzJUE5b2xvZ2ll">hydrogéologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cyVDMyVBOXJpZXMlMjB0ZW1wb3JlbGxlcw==">séries temporelles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1RSRUFN">STREAM <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-
-<div id="hero-banner" class="column-screen page-columns page-full">
-<div class="grid column-page">
-<div class="headline g-col-lg-12 g-col-20 g-col-md-20">
-<div class="h2">
-<p>Rivers</p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Projects</h1>
 </div>
-<p>Drawn to water as a kayaker, I find renewal in alpine rivers—their wild currents and tranquil pools. Explore below just a few of my favorite spots.</p>
-<ul>
-<li><p><a href="#hautes-alpes">Hautes Alpes</a><br>
-</p></li>
-<li><p><a href="#tessin">Tessin</a><br>
-</p></li>
-<li><p><a href="#haut-val-de-bagnes">Haut Val de Bagnes</a><br>
-</p></li>
-<li><p><a href="#protected-wild-rivers">Protected wild rivers</a></p></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="listing-gallery" class="column-page quarto-listing quarto-listing-container-custom">
 
-<h2 class="anchored">Hautes Alpes</h2>
 
-<p>Renowned for kayaking
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The following research projects are, currently, a list of my activities within HES-SO Valais-Wallis.</p>
+<p>The projects tagged with STREAM are done under the STREAM partnership : they are the work of a team as mentioned in their description and they combine hydrology, data science, numerical sciences.</p>
+<div id="listing-projects-list" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="aHlkcm9nJUMzJUE5b2xvZ2llJTJDcyVDMyVBOXJpZXMlMjB0ZW1wb3JlbGxlcyUyQ1NUUkVBTQ==" data-listing-file-modified-sort="1779972371920" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
+<a href="../projects/GPAT/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/GPAT/media/image1.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ground Plain Acqua Track
+</h5>
+<div class="listing-categories">
 
-<div class="list grid" style="column-gap: 10px;">
+<div class="listing-category" onclick="window.quartoListingCategory('aHlkcm9nJUMzJUE5b2xvZ2ll'); return false;">hydrogéologie</div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Les combes du Guil, Chateau Queyras</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/guil.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
+<div class="listing-category" onclick="window.quartoListingCategory('cyVDMyVBOXJpZXMlMjB0ZW1wb3JlbGxlcw=='); return false;">séries temporelles</div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Le Guil, le Tunnel</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/guil2.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Le Cristillan, vers le Col de Clausis, Ceillac</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_9983.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">La Haute Ubaye</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_0199.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">La Haute Ubaye</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HA/IMG_0323.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
+<div class="listing-category" onclick="window.quartoListingCategory('U1RSRUFN'); return false;">STREAM</div>
 
 </div>
-
-<h2 class="anchored">Tessin</h2>
-
-<p>Valle Maggia, Valle Verzasca
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Val Canègia</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="Tessin/P1080107.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Val di Verzasca</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="Tessin/P1080042.jpg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
+<div class="card-text listing-description delink">
+<p>Suivi automatisé de la nappe de la Dranse de Bagnes : détection d’erreurs de mesure, alertes de bas niveau et exploration de prédictions.</p>
 </div>
-
-<h2 class="anchored">Haut Val de Bagnes</h2>
-
-<p>Close by my home.
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="" class="listing-title">Dyure de Sery, En dessous du Petit Combin</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="">
-      <img src="HVB/HVB.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
 </div>
-
-<h2 class="anchored">Protected Wild rivers</h2>
-
-<p>Projects to preserve the most wild and pristine rivers.
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://www.wwf.ch/fr/projets/decouvrez-nos-perles-de-riviere" class="listing-title">Swiss rivers - Perles de rivières WWF</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://www.wwf.ch/fr/projets/decouvrez-nos-perles-de-riviere">
-      <img src="PDR/pdr.jpeg" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://rivieres-sauvages.fr/les-rivieres-labellisees-site-rivieres-sauvages/" class="listing-title">French rivers - Rivières Sauvages</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://rivieres-sauvages.fr/les-rivieres-labellisees-site-rivieres-sauvages/">
-      <img src="PDR/Rivieres-Sauvages-Guiers-Mort-photo-Remi-Masson-02-2.webp" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
+</div></a>
 </div>
-
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<style>
-
-/* we need to hide this element */
-/* <header id="title-block-header" class="quarto-title-block"></header> */
-
-header#title-block-header {
-  display: none;
-}
-
-body.quarto-light #hero-banner {
-  background-color: rgb(240,245,249);
-}
-
-body.quarto-dark #hero-banner {
-  background-color: #17212B;
-}
-
-div.carousel {
-  margin-top: 2rem; 
-}
-
-body.quarto-dark .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: rgb(255,255,255);
-}
-
-body.quarto-dark .carousel-dark .carousel-control-next-icon,
-body.quarto-dark .carousel-dark .carousel-control-prev-icon {
-  filter: inherit;
-}
-
-#quarto-content main { 
-  margin-top: 0;
-  padding-top: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.headline {
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-bottom: 1em;
-}
-
-.headline p {
-  margin: 0;
-  padding-bottom: 0.2rem;
-}
-
-.headline a {
-  text-decoration: none;
-}
-
-.headline ul li {
-  margin-bottom: 0.3em;
-}
-
-.carousel.card {
-  padding-top: 2em;
-}
-
-.carousel img {
-  width: 70%;
-  margin-bottom: 110px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  margin-bottom: 110px;
-}
-
-.carousel-caption {
-  padding-top: 1em;
-}
-
-.touch {
-  
-}
-</style>
 
 
 
