@@ -2,15 +2,14 @@
 title: "Ground Plain Acqua Track"
 description: "Suivi automatisé de la nappe de la Dranse de Bagnes : détection d'erreurs de mesure, alertes de bas niveau et exploration de prédictions."
 image: media/image1.jpeg
-categories: [hydrogéologie, séries temporelles, STREAM]
-toc: true
-toc-location: right
-toc-title: "Sur cette page"
-toc-depth: 2
+categories: [hydrogéologie, monitoring, statistiques, STREAM]
+toc: false
 page-layout: article
 ---
 
 ::: column-margin
+#### Informations projet
+
 **Durée** 06.2024 – 12.2024 (6 mois)
 
 **Partenaires** BlueArk, Alpgéo, STREAM
@@ -18,11 +17,14 @@ page-layout: article
 **Financement** STREAM
 :::
 
-### Suivi de la nappe de la Dranse de Bagnes)
+### Suivi de la nappe de la Dranse de Bagnes
+::: {#fig-piezo layout-ncol=2}
+![](media/image1.jpeg)
 
-![](media/image1.jpeg)![](media/image2.jpeg)
+![](media/image2.jpeg)
 
-Figure 1 Sondes pièzométriques le long de la nappe Profray et Versegères
+Sondes pièzométriques le long de la nappe Profray et Versegères
+:::
 
 **Contexte et objectifs**
 
@@ -70,9 +72,6 @@ Les méthodes SARIMA permettent également de prédire le niveau futur de la nap
 
 -   STREAM (F. Terrettaz, E. Neveu)
 
-**Liens :**
-
-Pour plus de détail : Resume_GPAT_web.docx
 
 ------------------------------------------------------------------------
 

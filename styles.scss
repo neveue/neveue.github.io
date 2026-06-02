@@ -39,3 +39,35 @@ body {
 a {
   color: #33cccc;
 }
+
+/* === Floating sticky sidebar for project metadata === */
+.column-margin {
+  float: right;
+  clear: right;
+  width: 230px;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+
+  /* Suit le scroll */
+  position: sticky;
+  top: 90px;                         // ajuste si la navbar est plus haute/basse
+
+  /* Style visuel 
+  padding: 1rem;
+  background-color: #ffffff;
+  border-left: 3px solid #acd9e2;    // accent navbar
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  font-size: 0.9rem;
+  line-height: 1.5;*/
+}
+
+/* Sur écrans étroits (tablette, mobile), retour à l'affichage inline */
+@media (max-width: 992px) {
+  .column-margin {
+    float: none;
+    width: auto;
+    position: static;
+    margin: 1rem 0;
+  }
+}

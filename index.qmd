@@ -1,5 +1,5 @@
 ---
-title: "E. Neveu, Assistant Professor"
+title: "Emilie Neveu, Assistant Professor"
 image: images/profile.jpeg
 
 about: 
@@ -26,6 +26,8 @@ comments: false
 ## Research
 
 Since June 2024, **I am responsible of the [STREAM](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-de-recherche-energie-et-environnement/stream/)** partnership, which aims is to **foster innovation and digitalisation in water management**. I am also collaborating at [Hydro Alps](https://www.hevs.ch/fr/recherche-appliquee-et-developpement-a-la-hes-so-valais-wallis/institut-systemes-industriels-valais/hydro-alps-200776), another partnership focusing in applied research for hydroelectricity.
+
+*See [Research Projects](projects/index.html) for a list of the STREAM projects*
 
 ## Teaching
 

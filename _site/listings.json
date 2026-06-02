@@ -1,10 +1,17 @@
 [
   {
+    "listing": "/gallery/index.html",
+    "items": []
+  },
+  {
     "listing": "/gallery/old_index_4projects.html",
     "items": []
   },
   {
-    "listing": "/gallery/index.html",
-    "items": []
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/GPAT/index.html",
+      "/projects/PredDemandeEauPotable/index.html"
+    ]
   }
 ]

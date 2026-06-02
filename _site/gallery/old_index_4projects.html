@@ -155,8 +155,8 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Research Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../teaching.html"> 
@@ -212,6 +212,7 @@ window.Quarto = {
 <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
 <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
 <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active" data-bs-interval="5000">
@@ -236,6 +237,14 @@ window.Quarto = {
 </a>
 <div class="carousel-caption d-none d-md-block">
 <p class="fw-light">Haut Val de Bagnes</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a href="#Protected-Wild-Rivers">
+<img src="PDR/pdr.jpeg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Protected Wild rivers</p>
 </div>
 </div>
 </div>
@@ -608,7 +617,7 @@ html {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/neveue\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
