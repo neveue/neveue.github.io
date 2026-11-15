@@ -1,17 +1,26 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/GPAT/index.html",
-      "/projects/PredDemandeEauPotable/index.html"
-    ]
-  },
-  {
     "listing": "/gallery/old_index_4projects.html",
     "items": []
   },
   {
     "listing": "/gallery/index.html",
     "items": []
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/BesoinIrrigationOrsieres/index.html",
+      "/projects/MembrInno/index.html",
+      "/projects/GINA/index.html",
+      "/projects/GIRE/index.html",
+      "/projects/GPAT/index.html",
+      "/projects/GenerationPluieHoraireClimat/index.html",
+      "/projects/VerbierEponge/index.html",
+      "/projects/MultiusageEau/index.html",
+      "/projects/PredDemandeEauPotable/index.html",
+      "/projects/STORE/index.html",
+      "/projects/TransitionEnergetiqueMultiusageEau/index.html"
+    ]
   }
 ]

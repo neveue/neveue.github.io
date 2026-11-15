@@ -6,11 +6,55 @@
   </url>
   <url>
     <loc>https://neveue.github.io/index.html</loc>
-    <lastmod>2026-06-02T16:04:23.700Z</lastmod>
+    <lastmod>2026-08-20T15:42:44.191Z</lastmod>
   </url>
   <url>
-    <loc>https://neveue.github.io/projects/index.html</loc>
-    <lastmod>2026-06-01T10:13:29.820Z</lastmod>
+    <loc>https://neveue.github.io/projects/STORE/index.html</loc>
+    <lastmod>2026-11-15T14:04:30.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/MultiusageEau/index.html</loc>
+    <lastmod>2026-06-25T12:24:36.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/TransitionEnergetiqueMultiusageEau/index.html</loc>
+    <lastmod>2026-06-24T19:51:38.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/portfolio_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GIRE/index.html</loc>
+    <lastmod>2026-07-21T15:45:55.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/PredDemandeEauPotable/index.html</loc>
+    <lastmod>2026-11-05T09:47:57.497Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GINA/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/BesoinIrrigationOrsieres/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/MembrInno/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/VerbierEponge/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GPAT/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GenerationPluieHoraireClimat/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.075Z</lastmod>
   </url>
   <url>
     <loc>https://neveue.github.io/gallery/old_index_4projects.html</loc>
@@ -25,12 +69,52 @@
     <lastmod>2026-05-29T14:28:19.744Z</lastmod>
   </url>
   <url>
-    <loc>https://neveue.github.io/projects/GPAT/index.html</loc>
-    <lastmod>2026-06-02T16:05:13.713Z</lastmod>
+    <loc>https://neveue.github.io/projects/GenerationPluieHoraireClimat/index.html</loc>
+    <lastmod>2026-07-21T15:45:55.805Z</lastmod>
   </url>
   <url>
-    <loc>https://neveue.github.io/projects/PredDemandeEauPotable/index.html</loc>
-    <lastmod>2026-06-02T16:05:04.186Z</lastmod>
+    <loc>https://neveue.github.io/projects/GPAT/index.html</loc>
+    <lastmod>2026-07-21T15:45:55.805Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/VerbierEponge/index.html</loc>
+    <lastmod>2026-07-21T15:45:55.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/MembrInno/index.html</loc>
+    <lastmod>2026-11-05T08:47:51.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/BesoinIrrigationOrsieres/index.html</loc>
+    <lastmod>2026-11-05T08:47:51.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GINA/index.html</loc>
+    <lastmod>2026-07-21T15:45:55.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/index.html</loc>
+    <lastmod>2026-08-25T07:17:39.277Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/PredDemandeEauPotable/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/GIRE/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/TransitionEnergetiqueMultiusageEau/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/MultiusageEau/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neveue.github.io/projects/STORE/slides_public.html</loc>
+    <lastmod>2026-11-05T10:08:20.079Z</lastmod>
   </url>
   <url>
     <loc>https://neveue.github.io/maths-for-the-earth.html</loc>

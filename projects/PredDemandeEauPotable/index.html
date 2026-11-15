@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3f06076e05d4dcede276f1f9df293384.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-840dd492b4863666afb2ac430762275e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -123,7 +123,6 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -132,9 +131,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Prédiction Demande en Eau Potable</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">usages de l'eau</div>
-    <div class="quarto-category">gestion des infrastructures</div>
-    <div class="quarto-category">Machine learning</div>
+    <div class="quarto-category">completed</div>
+    <div class="quarto-category">asset management</div>
+    <div class="quarto-category">multi-use</div>
+    <div class="quarto-category">machine learning</div>
     <div class="quarto-category">STREAM</div>
   </div>
   </div>
@@ -163,42 +163,48 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="informations-projet">Informations projet</h4>
 <p><strong>Durée</strong> 08.2025–09.2025, 2 mois</p>
 <p><strong>Partenaires</strong> STREAM</p>
-<p><strong>Financement</strong> STREAM</p>
+<p><strong>Financement</strong> - STREAM</p>
 </section></div><section id="prédiction-demande-en-eau-potable-pour-la-semaine---bruson." class="level3">
 <h3 class="anchored" data-anchor-id="prédiction-demande-en-eau-potable-pour-la-semaine---bruson.">Prédiction demande en eau potable pour la semaine - Bruson.</h3>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="media/image1.png" class="img-fluid"></p>
+<p><img src="media/image1.jpg" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="media/image2.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
-<p>Figure 1 : Bruson (crédit <a href="https://www.verbier.ch/destination/bruson/" class="uri">https://www.verbier.ch/destination/bruson/</a>). A droite, la zone d’habitation étudiée ( en vert) ainsi que les conduites principales du réseau d’eau potable (bleu) (SIT Val de Bagnes).</p>
+<p><strong>Figure 1</strong> Bruson (crédit <a href="https://www.verbier.ch/destination/bruson/" class="uri">https://www.verbier.ch/destination/bruson/</a>). A droite, la zone d’habitation étudiée ( en vert) ainsi que les conduites principales du réseau d’eau potable (bleu) (SIT Val de Bagnes).</p>
 <p><strong>Contexte et objectifs</strong></p>
-<p>Ce projet nous permet de prévoir la demande en eau potable pour une semaine à une échelle horaire pour la zone de test Bruson- Le Sappey</p>
+<p>Ce projet nous permet de prévoir la demande en eau potable pour une semaine à une échelle horaire pour la zone de test Bruson- Le Sappey<strong>.</strong> Prévoir les consommations d’eau, c’est pouvoir anticiper et ajuster la répartition et le traitement de l’eau dans les réseaux.</p>
+<p>Dans les communes alpines, l’eau potable est acheminée par gravité à travers des réseaux de forme souvent complexe. Entre la source et le robinet, des stations de traitement, puis des réservoirs jouent le rôle de tampons&nbsp;: ils se remplissent quand la demande est faible et se vident aux heures de pointe. Encore faut-il savoir quand elles surviennent&nbsp;! C’est la question posée dans ce projet : combien d’eau sera consommée demain, heure par heure ?</p>
 <p><strong>Résultats</strong></p>
-<p>Les meilleures prévisions ont été obtenues avec LightGBM, cette méthode s’est avérée rapide et facile. Après un apprentissage sur les données de janvier 2022 à octobre 2024, les prédictions sont testées fin 2024, et donnent une <strong>erreur relative moyenne de 18.3%</strong> <strong>pour novembre et de 21.9% pour décembre par rapport à une consommation moyenne par heure proche de 0.015 m<sup>3</sup>.</strong></p>
+<p>Comme pour la météo, nous avons cherché à prévoir la demande en eau des jours suivants. Fanny Terrettaz a utilisé les consommations horaires mesurées à Bruson et au Sappey entre janvier 2022 et octobre 2024<sup>1</sup> pour entraîner plusieurs méthodes d’apprentissage automatique. Ces méthodes prévoient la semaine suivante à partir des 7 jours précédents. Testée sur les deux mois de fin 2024, des données jamais vues à l’apprentissage, la méthode la plus efficace (LightGBM<sup>2</sup>) donne un écart moyen entre prévision et mesure de 1,8 L/h par compteur contre 4,3 L/h si l’on transpose simplement les consommations de l’année précédente.</p>
+<p>Le résultat le plus parlant est le rythme quotidien&nbsp;: la consommation est plus forte au réveil et en début de soirée. Au-delà des consommations des jours précédents, ce sont l'heure de la journée, le jour de la semaine et le mois qui améliorent les prédictions. La température de l’air, contrairement à la consommation d’électricité, joue un rôle mineur.</p>
 <p>Il est intéressant de remarquer que la demande est influencée par plusieurs facteurs, dont l’heure, le jour de la semaine et le mois de l’année alors que la température a peu d’importance. De plus, les prédictions sont robustes même en fin d’année, alors que cette période de fête de fin d’année différe du reste de l’année.</p>
 <p>La méthode peut être testée rapidement à d’autres secteurs : notamment il serait intéressant de la transférer à une zone possédant plus de compteurs d'eau et une influence touristique plus grande.</p>
-<figure class="figure">
-<img src="media/image3.png" style="width:3.81944in;height:2.86458in" alt="A graph with blue and orange lines AI-generated content may be incorrect." class="figure-img">
-<figcaption>
-<p>
-Figure 2 : Comparaison des prédictions [m<sup>3</sup>/h] pour fin décembre par rapport à la demande mesurée pour le meilleur modèle.
-</p>
-</figcaption>
-</figure>
+<p><img src="media/image3.png" class="img-fluid"></p>
+<p><strong>Figure 2.</strong> Le rythme d’une journée à Bruson : consommation moyenne par compteur mesurée (bleu) et prédite (orange), heure par heure pour le 11 novembre 2024. La consommation suit le rythme des habitants, avec un creux nocturne et deux pointes, et une moyenne de 10L/heure.</p>
+<p>À quoi cela sert-il concrètement ? À planifier le remplissage des réservoirs et les transferts entre secteurs pour éviter de trop longs stockages qui altèrent la qualité. À repérer plus vite une anomalie : un écart entre consommation mesurée et consommation attendue peut signaler fuite ou problème de capteurs. La méthode se transfère facilement à d’autres secteurs et demande peu de temps de calcul mais elle nécessite des mesures horaires<sup>1</sup>. Ce travail prépare <a href="https://blueark.ch/wp-portfolio/gestion-intelligente-de-lapprovisionnement-en-eau/">le projet de recherche GINA</a>, lancé cette année sur Verbier avec Altis. Sur un modèle du réseau, il s'agit d'éprouver des méthodes de régulation face à des situations contrastées, un été sec ou un pic d'affluence, pour satisfaire tous les usages. Alimenter ensuite ces méthodes par des prévisions de demande en eau et de ressources ouvrirait la voie à une aide à la conduite des réseaux.</p>
 <p><strong>Qui a participé ?</strong></p>
 <ul>
-<li>STREAM (F. Terrettaz, E. Neveu)</li>
+<li><p>STREAM (F. Terrettaz, E. Neveu)</p></li>
+<li><p>STREAM</p></li>
 </ul>
 <p><strong>Valorisation</strong></p>
 <ul>
-<li>Présentation&nbsp;: <a href="https://ai-days.swiss-ai-center.ch/fr/schedule">AIDays, Martigny mars 2026</a></li>
+<li><p>Présentation&nbsp;: <a href="https://ai-days.swiss-ai-center.ch/fr/schedule">AIDays, Martigny mars 2026</a></p></li>
+<li><p>Article dans <a href="https://hessoit.sharepoint.com/:b:/r/sites/STREAM/Documents%20partages/General/Communication/SiteWeb/Projets/2025_PredictionDemandeEauPotableBruson/valorisation/338_Dranses_septembre%202026-1.pdf?d=wcfe00b5c359b4c788abdc6e2e839a4ca&amp;csf=1&amp;web=1&amp;e=YtOY3p">Echo des Dranses, sept 2026</a></p></li>
 </ul>
+<p><strong>Liens :</strong></p>
+<p>Pour plus de détail&nbsp;: Resume_predictionDemandeEau_web.docx</p>
+<p><strong>Notes</strong></p>
+<ol type="1">
+<li>Données de consommation horaire anonymisées mise à disposition par ALTIS. Nous n’avons pas connaissance du type de bâtiment (tourisme, agricole, habitation)</li>
+<li>LightGBM est un algorithme d’apprentissage automatique fondé sur des arbres de décision. Il est libre d’accès et fonctionne sur un ordinateur portable ordinaire.</li>
+</ol>
 <hr>
 <p><a href="../">← Retour aux projets</a></p>
 
